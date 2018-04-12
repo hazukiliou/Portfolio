@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hazuki Liou</title>
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function toggle(menu) {
+            menu.classList.toggle("open");
+            menu.classList.toggle("close");
+        }
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-117337614-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-btn open" onclick="toggle(this)">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="thrid"></div>
+        </div>
+        <div class="nav-select">
+            <a href="#" data-filter="all" class="filter all" role="button">所有網頁</a>
+            <a href="#" data-filter=".chungyo" class="filter hot" role="button">中佑資訊</a>
+            <a href="#" data-filter=".mighty" class="filter no" role="button">曼迪傳播</a>
+        </div>
+    </nav>
+
+    <div class="item-list">
+
+        <div class="item chungyo">
+            <a href="" class="block-img" data-content="尚未上線">
+                <img src="image/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">尚未上線</div>
+                <div class="date">2017-3-16</div>
+
+            </div>
+            <div class="company">中佑資訊有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">尚未上線</a>
+        </div>
+
+        <div class="item chungyo">
+            <a href="" class="block-img" data-content="尚未上線">
+                <img src="image/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">尚未上線</div>
+                <div class="date">2017-2-12</div>
+
+            </div>
+            <div class="company">中佑資訊有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">尚未上線</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="精靈寶可夢M20劇場版">
+                <img src="image/mighty/07 pokemon M20/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">精靈寶可夢M20劇場版</div>
+                <div class="date">2017-09-10</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="2017漫畫博覽會官網">
+                <img src="image/mighty/06 comic2017/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">2017漫畫博覽會官網</div>
+                <div class="date">2017-06-20</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="台灣名偵探柯南官網">
+                <img src="image/mighty/05 conan/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">台灣名偵探柯南官網</div>
+                <div class="date">2017-05-26</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="麵包超人電子商務">
+                <img src="image/mighty/04 anpanman/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">麵包超人電子商務</div>
+                <div class="date">2017-05-10</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="Petit Fancy 26">
+                <img src="image/mighty/03 pf26/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">Petit Fancy 26</div>
+                <div class="date">2017-04-07</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="台灣精靈寶可夢官網">
+                <img src="image/mighty/02 pokemon/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">台灣精靈寶可夢官網</div>
+                <div class="date">2017-02-02</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="./live.php?id=66" target="_blank" class="demobtn">Live Demo</a>
+        </div>
+
+        <div class="item mighty">
+            <a href="" class="block-img" data-content="2017國際動漫節官網">
+                <img src="image/mighty/01 tica2017/view.jpg" alt="">
+            </a>
+            <div class="info">
+                <div class="title">2017國際動漫節官網</div>
+                <div class="date">2017-12-29</div>
+
+            </div>
+            <div class="company">曼迪傳播有限公司</div>
+            <a href="http://www.mightymedia.com.tw/tica/2017/" target="_blank" class="demobtn">Online</a>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!-- scroll -->
+    <script src="js/mixitup.js"></script>
+
+    <script src="js/mob.nav.js"></script>
+
+
+</body>
+
+</html>
